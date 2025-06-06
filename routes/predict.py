@@ -2,6 +2,7 @@ from flask import Blueprint, request, jsonify
 import joblib
 import numpy as np
 
+
 predict_blueprint = Blueprint('predict', __name__)
 
 # Load model and encoder
